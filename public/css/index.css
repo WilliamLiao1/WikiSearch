@@ -1,0 +1,38 @@
+body {
+  background-color: #88FFBB;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  left: 55%;
+  font-family: Arial;
+  margin-top: -20px;
+  width: 30%;
+}
+
+#searchResult {
+  min-height: 300px;
+}
+
+#favList {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.star {
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  position: relative;
+  top: 6px;
+  margin-right: 9px;
+  cursor: pointer;
+}

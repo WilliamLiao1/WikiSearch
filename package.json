@@ -1,0 +1,26 @@
+{
+  "name": "WikiSearch",
+  "version": "1.0.0",
+  "description": "Allows querying of Wikipedia articles by title prefix search",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WilliamLiao1/WikiSearch.git"
+  },
+  "keywords": [
+    "Wikipedia",
+    "prefix search"
+  ],
+  "author": "William Liao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamLiao1/WikiSearch/issues"
+  },
+  "homepage": "https://github.com/WilliamLiao1/WikiSearch",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
