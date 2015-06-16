@@ -1,7 +1,7 @@
 {
   "name": "WikiSearch",
   "version": "1.0.0",
-  "description": "Allows querying of Wikipedia articles by title prefix search",
+  "description": "Wikipedia articles prefix searching using MediaWiki API",
   "main": "app.js",
   "scripts": {
     "test": "test.js"
