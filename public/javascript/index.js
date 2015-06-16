@@ -3,9 +3,11 @@ var pf = getQueryVariable('pf'),
     here = getQueryVariable('here'),
     aphere = getQueryVariable('aphere');
 
+//Get favorites from localStorage
 var favArr = localStorage.wikiSearchFav ? JSON.parse(localStorage.wikiSearchFav) : [];
 updateFavList(favArr);
 
+//Make a GET request to the MediaWiki API to retrieve results of prefix searching
 if (pf != false) {
   $('#prefixInput').val(pf.toLowerCase());
   var url = "https://en.wikipedia.org/w/api.php";
@@ -25,6 +27,8 @@ if (pf != false) {
   }).done(handleResult);
 };
 
+
+///////////////////////////////////////////////////////////////////////////////helper functions
 function getQueryVariable(variable) {
   var query = window.location.search.substring(1);
   var vars = query.split('&');
