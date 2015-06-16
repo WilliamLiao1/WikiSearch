@@ -8,7 +8,7 @@ updateFavList(favArr);
 
 if (pf != false) {
   $('#prefixInput').val(pf.toLowerCase());
-  var url = "https://ko.wikipedia.org/w/api.php";
+  var url = "https://en.wikipedia.org/w/api.php";
   var queryData = {
     action : 'query',
     list : 'allpages',
